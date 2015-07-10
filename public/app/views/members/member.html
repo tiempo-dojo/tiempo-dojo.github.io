@@ -1,0 +1,24 @@
+<div class="row">
+    <ul class="breadcrumb">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/members">Members</a></li>
+        <li class="active">{{member.username}}</li>
+    </ul>
+    <article class="col-md-12 panel">
+        <div class="page-header">
+            <h1>{{member.fullname}}</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-lg-4 text-centered">
+                <img ng-src="{{member.picture}}" alt="" class="center-block img-circle img-thumbnail img-responsive">
+            </div>
+            <div class="col-lg-8 col-xs-12 member-info">
+                <h2>{{member.fullname}}</h2>
+                <p><strong>About: </strong> {{member.about}} </p>
+                <p><strong>Skills: </strong>
+                    <span class="label label-info tags" ng-repeat="hobbie in member.hobbies">{{hobbie}}</span>
+                </p>
+            </div>
+        </div>
+    </article>
+</div>

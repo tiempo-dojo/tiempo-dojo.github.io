@@ -1,0 +1,95 @@
+[
+    {
+      "username": "Carlos",
+      "fullname": "Carlos Pérez Gutiérrez",
+      "about": "Developer, retro Geek and literature lover.",
+      "hobbies": [
+        "anime",
+        "manga",
+        "video games"
+      ],
+      "twitter": "AlgusDark",
+      "picture": "public/images/members/carlos.jpg"
+    },
+    {
+      "username": "Nubia",
+      "fullname": "Nubia Alejandra Barba Sosa",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/5/005/03b/1ba/1f4e49a.jpg"
+    },
+    {
+      "username": "Miguel",
+      "fullname": "Miguel Ibarra",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/01/miguel_romero-128x128.png"
+    },
+    {
+      "username": "Goco",
+      "fullname": "Miguel Gocobachi",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/7/005/04b/02a/3179b08.jpg"
+    },
+    {
+      "username": "Isaac",
+      "fullname": "Isaac Peraza",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/6/000/21d/1be/1b5efe4.jpg"
+    },
+    {
+      "username": "Alex Borbon",
+      "fullname": "",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "public/images/members/member.png"
+    },
+    {
+      "username": "Caravez",
+      "fullname": "",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "public/images/members/member.png"
+    },
+    {
+      "username": "Vallel Alejandro Blanco Achoy",
+      "fullname": "",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/3/000/082/0cf/130f95f.jpg"
+    },
+    {
+      "username": "Chapo",
+      "fullname": "Martin Ramos Estrada",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/2/000/1bc/1f3/265cbd4.jpg"
+    },
+    {
+      "username": "David",
+      "fullname": "David Ricardo Sepulveda Chavez",
+      "hobbies": [
+        
+      ],
+      "twitter": "",
+      "picture": "https://media.licdn.com/media/p/3/005/0b3/2e0/206c2c5.jpg"
+    }
+]

@@ -1,0 +1,21 @@
+<div class="row">
+    <ul class="breadcrumb">
+        <li><a href="#/">Home</a></li>
+        <li class="active">Members</li>
+    </ul>
+    <article class="col-md-12 panel">
+        <div class="page-header">
+            <h1>Our Dojo Padawans</h1>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-offset-3 col-xs-6" ng-repeat="member in members">
+                    <div><a href="#/members/{{member.username}}"><img class="img-responsive center" alt="" ng-src="{{member.picture}}"></a></div>
+                    <div class="memberdesc">
+                        <a href="#/members/{{member.username}}"><h3>{{member.username}}</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

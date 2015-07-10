@@ -1,0 +1,4 @@
+define([
+    './memberService',
+    './kataService'
+], function () {});

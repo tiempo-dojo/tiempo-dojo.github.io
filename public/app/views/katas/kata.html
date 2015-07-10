@@ -1,0 +1,18 @@
+<div class="row">
+    <ul class="breadcrumb">
+        <li><a href="#/">Home</a></li>
+        <li><a href="#/katas">Kata</a></li>
+        <li class="active">{{kata.title}}</li>
+    </ul>
+    <article class="col-md-12 panel">
+        <div class="page-header">
+            <h1><a ng-href="{{kata.edit}}"><i class="fa fa-pencil-square-o"></i>{{kata.title}}</h1></a>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div btf-markdown="kata.content">
+                </div>
+            </div>
+        </div>
+    </article>
+</div>

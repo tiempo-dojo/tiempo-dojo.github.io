@@ -1,0 +1,28 @@
+{
+  "name": "spahql",
+  "preferGlobal": false,
+  "version": "0.7.6",
+  "author": "Dan Glegg <dan@angryamoeba.co.uk>",
+  "description": "A query language and data model for deep Javascript object structures.",
+  "contributors": [
+    "David Ellis <d.f.ellis@ieee.org>",
+    "Andrew Cherry <andrew@xyncro.com>"
+  ],
+  "main": "spahql.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danski/SpahQL.git"
+  },
+  "keywords": [
+    "json", "query", "ql", "language", "spah"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">= 0.6.0 < 0.9.11-"
+  }
+}

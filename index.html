@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Is Tiempo to Coding Dojo">
+    <meta name="author" content="Algus Dark">
+    <title>Is Tiempo to Coding Dojo</title>
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/app/vendors/angular-loading-bar/build/loading-bar.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" aria-expanded="false" aria-controls="navbar" ng-click="navCollapsed = !navCollapsed" ng-init="navCollapsed = true">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#/">Is Tiempo to Coding Dojo</a>
+            </div>
+            <div collapse="navCollapsed" id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/">Home</a></li>
+                    <li><a href="#/katas">Katas</a></li>
+                    <li><a href="#/members">Members</a></li>
+                    <li><a href="#/about">About</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <header class="intro-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>{<span class="tiempo">tiempo</span> <span class="dojo">Dojos</span>}</h1>
+                        <hr class="small">
+                        <span class="subheading">There is a difference between knowing the path & walking the path.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Partials -->
+    <section class="container" ng-view autoscroll></section>
+    <!-- /Partials -->
+    <footer class="footer">
+        <div class="container center">
+            <div class="copyright">
+                <p>Made by <a href="http://www.twitter.com/AlgusDark">@AlgusDark</a>. Feel free to fork this and help to maintain this dojo.</p>
+            </div>
+        </div>
+    </footer>
+    <!--
+    <script src="public/app/vendors/angular/angular.min.js"></script>
+    <script src="public/app/vendors/angular-route/angular-route.min.js"></script>
+    <script src="public/app/vendors/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="public/app/vendors/angular-strap/dist/angular-strap-tpl.min.js"></script>
+    <script src="public/app/vendors/angular-loading-bar/build/loading-bar.min.js"></script>
+    <script src="public/js/app.js"></script>
+    -->
+    <script src="public/app/vendors/requirejs/require.js" data-main="public/js/main.js"></script>
+</body>
+
+</html>

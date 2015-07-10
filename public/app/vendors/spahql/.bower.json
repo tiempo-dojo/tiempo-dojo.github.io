@@ -1,0 +1,14 @@
+{
+  "name": "spahql",
+  "homepage": "https://github.com/danski/SpahQL",
+  "_release": "fdb1af908c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "fdb1af908cf09c61fb46f0c47cea2e3e55586407"
+  },
+  "_source": "git://github.com/danski/SpahQL.git",
+  "_target": "*",
+  "_originalSource": "spahql",
+  "_direct": true
+}
